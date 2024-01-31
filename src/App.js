@@ -58,7 +58,7 @@ function App() {
             <FontAwesomeIcon className='text-xl my-auto' icon={faGithub} />
             <p className='font-semibold'>Source Code</p>
           </a>
-          <p className='text-center font-light'>mnyessss 2024</p>
+          <a href='https://bear-web-portfolio.vercel.app/' target='_blank' rel='noreferrer' className='text-center font-light'>mnyessss 2024</a>
         </div>
       </div>
     </div>
