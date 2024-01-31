@@ -18,7 +18,7 @@ const Forecast = ({ data }) => {
                     <AccordionItem key={idx}>
                         <AccordionItemHeading>
                             <AccordionItemButton className='flex flex-col md:grid md:grid-cols-2 justify-between w-full bg-niceWhite-100 p-5 rounded-md text-niceBlack-100 shadow-lg'>
-                                <div className='flex gap-5'>
+                                <div className='flex gap-5 justify-between md:justify-normal'>
                                     <img alt='weather' className='w-3/12' src={require(`../../img/icons/${item.weather[0].icon}.png`)}></img>
                                     <p className='my-auto font-bold'>{forecastDays[idx]}</p>
                                 </div>

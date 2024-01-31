@@ -6,7 +6,7 @@ const CurrentWeather = ({ data }) => {
     return (
         <div style={{ backgroundColor: "#474F44", color: "#F3F7E8" }} className='rounded-md shadow-xl py-10'>
             <div className='topPart flex flex-col text-center justify-center lg:justify-between lg:text-left lg:flex-row lg:px-20'>
-                <div className='my-auto flex flex-col gap-1'>
+                <div className='my-auto flex flex-col gap-1 px-5 md:px-0'>
                     <div>
                         <p className='font-bold text-4xl'>{data.city}</p>
                         <p className='text-xl capitalize'>{data.weather[0].description}</p>
