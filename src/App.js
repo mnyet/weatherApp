@@ -1,4 +1,3 @@
-import { Helmet } from 'react-helmet';
 import './App.css';
 import Search from './components/search/search.js';
 import { useState } from 'react';
